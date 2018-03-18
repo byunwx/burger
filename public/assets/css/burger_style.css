@@ -1,0 +1,25 @@
+body{
+  background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/burger-background-10.jpg);
+  width: auto;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.clearBG{
+  background-color: #ffffff7d;
+}
+h1{
+  color: white;
+}
+li{
+  font-size: 20px;
+}
+.addOrder{
+  text-align: center;
+}
+button{
+  margin: 5px;
+}
+.row{
+  padding: 10px;
+}
