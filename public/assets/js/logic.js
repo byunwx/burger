@@ -13,7 +13,7 @@ $(function() {
       data: newBurgerState
     }).then(
       function() {
-        console.log("changed sleep to ", newDevoured);
+        console.log("changed devoured to", newDevoured);
         // Reload the page to get the updated list
         location.reload();
       }
@@ -42,7 +42,7 @@ $(function() {
     );
   });
 
-  $(".delete-cat").on("click", function(event) {
+  $(".delete-burger").on("click", function(event) {
     var id = $(this).data("id");
 
     // Send the DELETE request.
@@ -50,7 +50,7 @@ $(function() {
       type: "DELETE"
     }).then(
       function() {
-        console.log("deleted cat", id);
+        console.log("deleted burger", id);
         // Reload the page to get the updated list
         location.reload();
       }
